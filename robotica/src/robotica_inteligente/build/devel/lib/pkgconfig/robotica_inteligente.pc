@@ -1,0 +1,8 @@
+prefix=/home/alumno/Desktop/ri/robotica/src/robotica_inteligente/build/devel
+
+Name: robotica_inteligente
+Description: Description of robotica_inteligente
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
