@@ -2,7 +2,7 @@
 
 MODE=$1
 
-RI_PATH="/media/carlo/42E0143574F95C22/ri/robotica/src/robotica_inteligente"
+RI_PATH=$2
 
 # If mode is not defined, print error message
 if [ "$MODE" != "container" ] && [ "$MODE" != "object" ] && [ "$MODE" != "move" ] && [ "$MODE" != "all" ] && [ "$MODE" != "detection" ] && [ "$MODE" != "drive" ] && [ "$MODE" != "teleop" ]; then
