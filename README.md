@@ -25,9 +25,9 @@ sudo chmod +x init_docker.sh
   
   2. En una terminal separada, se ejecuta el siguiente comando, que inicializa el servicio de Gazebo. Esto abre una nueva terminal temporal.
 ```
-./init_docker.sh container <Path absoluto hasta robotica/src/robotica_inteligente>
+./init_docker.sh container
 ``` 
   3. En la misma terminal principal, se puede ejecutar el siguiente comando encargado de la navegación mediante teleoperaciones con gestos de las manos.
 ```
-./init_docker.sh teleop <Path absoluto hasta robotica/src/robotica_inteligente>
+./init_docker.sh teleop
 ```
