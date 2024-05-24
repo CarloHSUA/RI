@@ -2,7 +2,10 @@
 
 MODE=$1
 
-RI_PATH=$2
+# move to the path and copy it on the board
+cd ./robotica/src/robotica_inteligente
+RI_PATH=$(pwd)
+cd ../../..
 
 # If mode is not defined, print error message
 if [ "$MODE" != "container" ] && [ "$MODE" != "object" ] && [ "$MODE" != "move" ] && [ "$MODE" != "all" ] && [ "$MODE" != "detection" ] && [ "$MODE" != "drive" ] && [ "$MODE" != "teleop" ]; then
